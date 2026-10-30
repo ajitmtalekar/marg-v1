@@ -1,0 +1,135 @@
+:root {
+  --fab-size: 56px;
+  --fab-main-size: 62px;
+  --fab-gap: 12px;
+  --fab-right: 45px;
+  --fab-bottom: 45px;
+  --fab-z: 999999;
+}
+
+/* =========================
+   FAB WRAPPER (ROOT)
+========================= */
+.fab-wrapper {
+  position: fixed;
+  right: var(--fab-right);
+  bottom: var(--fab-bottom);
+  z-index: var(--fab-z);
+  pointer-events: auto;
+}
+
+/* =========================
+   MAIN FAB BUTTON
+========================= */
+.fab-main {
+  width: var(--fab-main-size);
+  height: var(--fab-main-size);
+  border-radius: 50%;
+  border: none;
+  background: #046cfe;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: transform 0.25s;
+}
+
+.fab-main:hover {
+  transform: scale(1.08);
+}
+
+/* =========================
+   SUB BUTTON LIST
+========================= */
+.fab-list {
+  position: absolute;
+  bottom: calc(var(--fab-main-size) + 12px);
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--fab-gap);
+
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.fab-list.open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* =========================
+   FAB BUTTON (COMMON)
+========================= */
+.fab-btn {
+  width: var(--fab-size);
+  height: var(--fab-size);
+  border-radius: 50%;
+  border: none;
+  background: white;
+  color: #333;
+  font-size: 24px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, background 0.2s;
+  pointer-events: auto;
+}
+
+.fab-btn:hover {
+  transform: scale(1.1);
+}
+
+.fab-btn:active {
+  transform: scale(0.95);
+}
+
+/* Smaller FABs if needed */
+.fab-btn.small {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+}
+
+/* =========================
+   FAB LABEL
+========================= */
+.fab-label {
+  position: absolute;
+  right: calc(var(--fab-size) + 10px);
+  top: 50%;
+  transform: translateY(-50%) translateX(5px);
+  background: #333;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.fab-btn:hover .fab-label {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+/* =========================
+   STATE STYLES
+========================= */
+.voice-on {
+  background: #4caf50 !important;
+  color: white;
+}
+
+.voice-off {
+  background: #f44336 !important;
+  color: white;
+}

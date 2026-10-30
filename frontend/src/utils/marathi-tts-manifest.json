@@ -1,0 +1,36 @@
+{
+  "_comment": "Feed each entry's `text` to your Cloud TTS call, save the audio bytes to `file` under public/audio/mr/. Voice: mr-IN-Wavenet-A (Google) or mr-IN-AarohiNeural (Azure).",
+  "phrases": [
+    { "file": "start.mp3",        "text": "सुरू करा" },
+    { "file": "straight.mp3",     "text": "सरळ जा" },
+    { "file": "turn_right.mp3",   "text": "उजव्या बाजूला वळा" },
+    { "file": "turn_left.mp3",    "text": "डाव्या बाजूला वळा" },
+    { "file": "slight_right.mp3", "text": "थोडे उजव्या बाजूला वळा" },
+    { "file": "slight_left.mp3",  "text": "थोडे डाव्या बाजूला वळा" },
+    { "file": "arrive.mp3",       "text": "आपण आपल्या ठिकाणी पोहोचला आहात" },
+    { "file": "circle.mp3",       "text": "गोल मार्गावर चालत रहा" }
+  ],
+  "numbers": [
+    { "file": "0.mp3",   "text": "शून्य" },
+    { "file": "1.mp3",   "text": "एक" },
+    { "file": "2.mp3",   "text": "दोन" },
+    { "file": "3.mp3",   "text": "तीन" },
+    { "file": "4.mp3",   "text": "चार" },
+    { "file": "5.mp3",   "text": "पाच" },
+    { "file": "6.mp3",   "text": "सहा" },
+    { "file": "7.mp3",   "text": "सात" },
+    { "file": "8.mp3",   "text": "आठ" },
+    { "file": "9.mp3",   "text": "नऊ" },
+    { "file": "10.mp3",  "text": "दहा" },
+    { "file": "20.mp3",  "text": "वीस" },
+    { "file": "30.mp3",  "text": "तीस" },
+    { "file": "40.mp3",  "text": "चाळीस" },
+    { "file": "50.mp3",  "text": "पन्नास" },
+    { "file": "60.mp3",  "text": "साठ" },
+    { "file": "70.mp3",  "text": "सत्तर" },
+    { "file": "80.mp3",  "text": "ऐंशी" },
+    { "file": "90.mp3",  "text": "नव्वद" },
+    { "file": "100.mp3", "text": "शंभर" },
+    { "file": "meter.mp3", "text": "मीटर" }
+  ]
+}

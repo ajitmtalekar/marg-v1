@@ -1,0 +1,4 @@
+.app-container { font-family: 'Poppins', sans-serif; text-align: center; margin: 1rem; }
+.btn { padding: 0.6rem 1rem; margin-top: 1rem; background: #00796b; color: white; border: none; border-radius: 8px; }
+.exhibit-list ul { list-style: none; padding: 0; }
+.exhibit-list li { margin: 0.3rem 0; }

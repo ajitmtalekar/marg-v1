@@ -1,0 +1,88 @@
+html {
+  font-size: 16px;              /* canonical baseline */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+
+/* ================= APP CONTAINER ================= */
+
+.app-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* ================= HEADER (GLASS) ================= */
+
+.app-header {
+  position: sticky;
+  top: env(safe-area-inset-top);
+  z-index: 3000;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 6px 12px;
+  margin: 3px 3px;
+
+  border-radius: 10px;
+}
+
+/* Glass effect already comes from .glass */
+.app-header.glass {
+  backdrop-filter: blur(22px) saturate(180%);
+}
+
+/* ================= LOGOS ================= */
+
+.bmc-logo img,
+.Zoo-logo img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ================= TITLE ================= */
+
+.app-title {
+  flex: 1;
+  margin: 0;
+
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+
+  color: #111;
+}
+
+/* ================= FOOTER TEXT ================= */
+
+.app-footer-text {
+  position: fixed;
+  bottom: env(safe-area-inset-bottom);
+  left: 0;
+  right: 0;
+
+  text-align: center;
+  font-size: 11px;
+  padding: 8px;
+
+  color: rgba(0,0,0,0.6);
+  pointer-events: none;
+}
+
+/* ================= DARK MODE ================= */
+
+@media (prefers-color-scheme: dark) {
+  .app-title {
+    color: #fff;
+  }
+
+  .app-footer-text {
+    color: rgba(255,255,255,0.6);
+  }
+}

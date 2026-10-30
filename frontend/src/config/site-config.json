@@ -1,0 +1,41 @@
+{
+  "siteId": "zoo",
+  "name": "The Mumbai Zoo",
+  "basePath": "/zoo",
+
+  "map": {
+    "center": [19.0186, 72.8436],
+    "minZoom": 16,
+    "maxZoom": 20,
+    "defaultZoom": 18,
+    
+    "bounds": [
+      [19.015, 72.840],
+      [19.022, 72.848]
+    ]
+  },
+
+  "data": {
+    "map": "/data/zoo-map.json",
+    "paths": "/data/zoo-path.json",
+    "exhibits": "/data/exhibits.json"
+  },
+
+  "entryPoints": [
+    { "id": "main_gate", "lat": 19.0189, "lng": 72.8441 }
+  ],
+
+  "features": {
+    "offline": true,
+    "gps": true,
+    "multiFloor": false,
+    "qrEntry": true
+  },
+
+  "branding": {
+  "logo": "/assets/bmc-logo.png",
+  "secondaryLogo": "/assets/zoo-logo.png"
+},
+"displayName": "वीरमाता जिजाबाई भोसले वनस्पती उद्यान व प्राणिसंग्रहालय"
+
+}

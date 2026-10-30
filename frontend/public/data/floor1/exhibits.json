@@ -1,0 +1,9 @@
+[
+  
+  { "id": "Canteen", "name": "Canteen", "coords": [72.83747137721677,18.97653249638224], "category": "food", "color": "#E67E22","floor": 1,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "entry_gate", "name": "Entry Gate", "coords": [72.83460802780169, 18.978274179746222], "category": "entry", "color": "#ccffff","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false}
+
+
+]
+
+

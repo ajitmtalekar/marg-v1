@@ -1,0 +1,63 @@
+.nav-icon-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 9999;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-icon-sheet {
+  background: #fff;
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+  padding: 16px;
+  animation: slideUp 0.2s ease-out;
+}
+
+.nav-icon-sheet h3 {
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+.nav-icon-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.nav-icon-grid button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.nav-icon-grid button:hover {
+  background: #f0f0f0;
+}
+
+.close-btn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  font-size: 14px;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

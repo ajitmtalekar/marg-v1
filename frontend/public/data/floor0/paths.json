@@ -1,0 +1,1646 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "entrancegate_to_entrygate",
+        "routeType": "secondary",
+        "oneway": "both",
+        "from": "entrancegate",
+        "to": "entrygate",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83369336946095,18.978752138741715],
+          [72.8340313621897,18.97840449815845],
+          [72.83443641696782,18.9783664352768],
+          [72.83456913240715,18.978290365153196]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "entrancegate_to_exitgate1",
+        "routeType": "secondary",
+        "oneway": "both",
+        "from": "entrancegate",
+        "to": "exitgate1",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+        
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83403136232876,18.978399069599767],
+          [72.8340139261959,18.978214315895034],
+          [72.83402867970774,18.97824749343702],
+          [72.83383956473111,18.978116667423176],
+          [72.83363837871951,18.978025471567758]
+          
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "entrancegate_to_parking",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "entrancegate",
+        "to": "parking",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+
+          [72.83383956473111,18.978116667423176],
+          [72.83386632595128,18.97788971877246]
+          
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "entrancegate_to_exitgate",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "entrancegate",
+        "to": "exitgate",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+
+          [72.83383956473111,18.978116667423176],
+          [72.83455035803588,18.978121775455875]
+          
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "entrygate_to_exitgate",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "entrygate",
+        "to": "exitgate",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+
+          [72.83456643955269,18.978284165525707],
+          [72.83447791764756,18.978117957425237]
+          
+        ]
+      }
+    }
+    ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "circle_jijamata_to_circle_jijamata",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "circle_jijamata",
+        "to": "circle_jijamata",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.8358551908963, 18.978152720277112],
+          [72.83590481681283, 18.978203470849145],
+          [72.83595980769327, 18.978222502309666],
+          [72.83602016353771, 18.9782110834336],
+          [72.83604564711649, 18.97818443938644],
+          [72.8360536945624, 18.978137495102473],
+          [72.83604430587548,18.9780791319202],
+          [72.83602418726068,18.978051219086677],
+          [72.83597590258512,18.97803345637199],
+          [72.83591420549973,18.978037262668146],
+          [72.83588201571601,18.978071519329703],
+          [72.8358632383422,18.97811338857316],
+          [72.83586055586024,18.978141301396274],
+          
+          [72.8358551908963, 18.978152720277112]
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "entrancegate_to_playground",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "entrancegate",
+        "to": "playground",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83369336946095,18.978752138741715],
+          [72.83404477473862,18.979035263437282 ],
+          [72.83409574189612,18.979167214193428 ],
+          [72.83409305941416,18.97932961498056 ]
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "entrygate_to_jijamatacircle",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "entrygate",
+        "to": "jijamatacircle",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83456511632704,18.978288474303273],
+          [72.83468709627842,18.97826652578849],
+          [72.8349043344163,18.97824495680542],
+          [72.83526237505092,18.97819547501021],
+          [72.83537769900063,18.97818786242503],
+          [72.83570623815974,18.97814979949389],
+          [72.83585533379058,18.978155090856205]
+        ]
+      }
+    }
+ ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "circle_rose_to_circle_rose",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "circle_rose",
+        "to": "circle_rose",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83718430530382, 18.978011481749164],
+          [72.83720979898206, 18.97808356608406],
+          [72.83731978074304, 18.97817745466914],
+          [72.83743646870889, 18.97819775489679],
+          [72.83755181543383,18.97816096073236],
+          [72.83762960741109,18.978088641144076],
+          [72.83766850339971,18.977988408680346],
+          [72.83765374974887,18.97787295095754],
+          [72.83762424244713,18.977838694255155],
+          [72.83753035557802,18.977760030689694],
+          [72.83740830264817,18.977738461641064],
+          [72.83727820227242,18.977784137270152],
+          [72.83720443401812,18.97787802602397],
+          [72.8371883391263,18.97795795829968],
+          [72.83718297416235,18.97800744016546],	         
+          [72.83718430530382, 18.978011481749164]
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rosegarden_to_jijamatacircle",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "rosegarden",
+        "to": "jijamatacircle",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83718310927475,18.97800642479264],
+          [72.83685708358334,18.978041927649045],
+          [72.83604037195366,18.978125688717114]
+        ]
+      }
+    }
+    
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "penguingate_to_office",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "penguingate",
+        "to": "office",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83725004863136,18.976364022810902],
+          [72.83745928222537,18.976059515785074]
+        ]
+      }
+    }
+   
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "penguin_to_canteen",
+        "routeType": "primary",
+        "oneway": "forward",
+        "from": "penguin",
+        "to": "canteen",
+        "floor": 1,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+           [72.8372461063868,18.97636840211532],
+           [72.83728500237542,18.976369670893416],
+           [72.83737888924455,18.976506698868818],
+           [72.8375291082351,18.976656414490915],
+           [72.83750362465634,18.976507967645833],
+           [72.83749169995747,18.976411510827614],
+           [72.83745146272784,18.976372178712616],
+           [72.83744609776389,18.97615775508373],
+           [72.83749169995747,18.976132379488085],
+           [72.83765399011693,18.97628590178269],
+           [72.8378431050961,18.97678072474477],
+           [72.8373951306064,18.976793412493713]
+        ]
+      }
+    }
+   
+     ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ampi_to_penguin",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "ampi",
+        "to": "penguin",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83740962369016,18.977737768517045],
+          [72.83733718862455,18.977283576462835],
+          [72.8374690908877,18.97727020362296],
+          [72.83746104344178,18.977183927158034],
+          [72.83745567847784,18.97705451237687],
+          [72.83744852841349,18.976963521126446],
+          [72.83733720541156,18.976855675339806],
+          [72.83733586417056,18.976622220691976],
+          [72.83704079115337,18.97660953292999],
+          [72.83702603750251,18.976364658934674],
+          [72.83725404847034,18.976378615493314]
+        ]
+      }
+    }
+     ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ampi_to_birdpark",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "ampi",
+        "to": "birdpark",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          
+          [72.83733718862455,18.977283576462835],
+          [72.83692682797819,18.977289838721973],
+          [72.836549988257,18.977291080107985]
+        ]
+      }
+    }
+    
+    ,
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "jijamata_to_birdpark",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "jijamata",
+        "to": "birdpark",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83604571126197,18.977984950004238],
+           [72.83612082075723,18.977891061310697],
+           [72.83616371603897,18.97781490233037],
+          [72.83635414550912,18.977681844927346],
+          [72.83639787861262,18.977528896287485]
+                 
+          
+        ]
+      }
+    }
+    
+    ,
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "birdparkexit_to_jijamata",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "birdparkexit",
+        "to": "jijamata",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+           [72.83595451533655,18.97805714612588],
+            [72.8358524061013,18.977769207148988],
+            [72.83583914036033,18.977764180701588],
+          [72.83580829181767,18.97757259670607]
+          
+          
+          
+         
+        ]
+      }
+    }
+     ,
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "rosegarden_to_birdpark",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "rosegarden",
+        "to": "birdpark",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [72.83685708358334,18.978041927649045],
+           [72.8368771959201,18.978036836380195],
+           [72.83654595252386,18.977341694576094],
+           [72.83640109030844,18.977519441975097]
+          
+        ]
+      }
+    }
+    ,
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "outsidebirdpark_to_playgrd",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "outsidebirdpark",
+        "to": "playgrd",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [72.83635417144025,18.977679083840158],
+           [72.83642659845356,18.977778047722627],
+           [72.83662644336066,18.977907461941786],
+           [72.83673776636259,18.977930299734734],
+           [72.83685708358334,18.978041927649045]
+          
+        ]
+      }
+    }
+    ,
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "turtile_to_croc",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "turtile",
+        "to": "croc",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+           [72.8358524061013,18.977769207148988],
+            [72.83562711248041,18.977854269872918],
+          [72.83536025822464,18.97768552380747]
+          
+          
+          
+         
+        ]
+      }
+    }
+    ,
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "jijabai_to_croc",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "jijabai",
+        "to": "croc",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+           [72.83590729461187,18.978095488516242],
+            [72.83562711248041,18.977854269872918]
+          
+          
+          
+          
+         
+        ]
+      }
+    }
+    ,
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "jijabaiway_to_croc",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "jijabaiway",
+        "to": "croc",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+           [72.83570623815974,18.97814979949389],
+           [72.83570745245405,18.9779913929759],
+            [72.83562711248041,18.977854269872918]  
+
+        ]
+      }
+    }
+     ,
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "entrygate_to_birdaviary",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "entrygate",
+        "to": "birdaviary",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [72.83468709627842,18.97826652578849],
+           
+           [72.83456635631482,18.977932724374007],
+           [72.83449662555454,18.97791242411407],
+           [72.83450595963669,18.977860504725633]
+
+        ]
+      }
+    }
+    ,
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "birdaviaryentry_to_birdaviaryexitout",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "birdaviaryentry",
+        "to": "birdaviaryexitout",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+           [72.83450595963669,18.977860504725633],
+           [72.83461189880688,18.97783162208772],
+           [72.83457301049823,18.977623544179757],
+           [72.83453009926116,18.977396434459212],
+           [72.83463603637774,18.977245450730663]
+
+        ]
+      }
+    }
+     ,
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "birdaviaryentry_to_croc",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "birdaviaryentry",
+        "to": "croc",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+           [72.83536025822464,18.97768552380747],
+          [72.83522477445408,18.97745091779924],
+           [72.83463603637774,18.977245450730663]
+
+        ]
+      }
+    }     
+
+     ,
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "birdaviaryentry_to_entrypath",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "birdaviaryentry",
+        "to": "entrypath",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+           [72.83536025822464,18.97768552380747],
+          [72.83522477445408,18.97745091779924],
+           [72.83463603637774,18.977245450730663]
+
+        ]
+      }
+    }     
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "entrygate_to_birdava1",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "entrygate",
+        "to": "birdava1",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83526237505092,18.97819547501021],
+          [72.8350048181698,18.978099185271272],
+          [72.83493234615793,18.977833979884963],
+          [72.8348412211319,18.97769305202511],
+          [72.83472589718218,18.97762580730783],
+          [72.83457304130172,18.97763217518199]
+
+        ]
+      }
+    }
+     ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "entrygate_to_birdava2",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "entrygate",
+        "to": "birdava2",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.8350048181698,18.978099185271272],
+          [72.83492033705683,18.978150809248007],
+          [72.8349043344163,18.97824495680542]
+
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "A1_to_A2",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "A1",
+        "to": "A2",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.8349043344163,18.97824495680542],
+          [72.83489754623776,18.978130698165554],
+          [72.8348908543201,18.97814084045827],
+          [72.8348009805525,18.978109080542694],
+          [72.83461861626576,18.97806855159946]
+          
+
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "A3_to_A4",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "A3",
+        "to": "A4",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83460520727424,18.977832522554706],
+          [72.83493374643335,18.977842672689878]
+          
+
+        ]
+      }
+    }
+    ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "circle_fieretemple_to_circle_fieretemple",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "circle_fieretemple",
+        "to": "circle_fieretemple",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83758796436803, 18.979389100499006],
+          
+          [72.8376952424608, 18.979463957031808],
+          [72.83761058769316,18.979560103585086],
+          [72.837500626878,18.97951567148894],
+          [72.83758796436803, 18.979389100499006]
+
+        ]
+      }
+    }
+     ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "rosegarden_to_fieretemple",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "rosegarden",
+        "to": "fieretemple",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83743646870889, 18.97819775489679],
+          [72.83748454042635,18.97853666156473],
+          [72.83752611068729,18.97892997718716],
+          [72.83756366097177,18.97907305846604],
+          [72.83758796436803, 18.979389100499006]
+
+        ]
+      }
+    }
+     ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "monkey_to_tiger",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "monkey",
+        "to": "tiger",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83905515782897,18.979234364976246],
+          [72.83813624713906,18.97910222144284],
+          [72.83782706478797,18.97910793568753],
+         
+          [72.83756366097177,18.97907305846604],
+          
+          
+          [72.83688654912227,18.97907701118248]
+
+        ]
+      }
+    }
+    ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "circle_bandstand_to_circle_bandstand",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "circle_bandstand",
+        "to": "circle_bandstand",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83666647104063, 18.978815577063173],
+        
+          [72.83680325137901,18.97884347356133],
+           [72.83690650898191,18.978665874558764],
+           [72.83675632414419,18.97861514368821],
+           [72.83660881676663,18.978714107014653],
+          
+      
+          [72.83666647104063, 18.978815577063173]
+
+        ]
+      }
+    }
+
+     ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "entrygate_to_lion",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "entrygate",
+        "to": "lion",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+         [72.83460802780169, 18.978274179746222],
+         [72.83470040926576,18.978287930459373],
+         [72.83472454683664,18.97844145076781],
+         [72.83499404030233,18.978506226036803],
+         [72.8351013183951,18.978595039339243],
+         [72.83511204620439,18.978658477383437],
+         [72.8351013553593,18.978706542738134],
+         [72.83494312017245,18.978828343680128],
+         [72.83491896745652,18.979011099695704],
+         [72.83500890180683,18.97909210324018],
+         [72.83514569035945,18.979093374233],
+         [72.83533747176939,18.97900199908975],               
+      
+          [72.83551706995416, 18.97898694256032]
+
+        ]
+      }
+    }
+    ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "lion_to_tiger",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "lion",
+        "to": "tiger",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          
+          [72.83551706995416, 18.97898694256032],
+          [72.83570220958396,18.97887147456413],
+          [72.83607634193248,18.9788562494552],
+          [72.8362615613937,18.978924762453826],
+          [72.83664498333513,18.979013453120604],
+          [72.8367254419047,18.979095922366238],
+
+
+          [72.83688654912227,18.97907701118248]
+
+        ]
+      }
+    }
+     ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "slothbear_to_jackal1",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "slothbear",
+        "to": "jackal1",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+       
+          [72.83664498333513,18.979013453120604],
+          [72.83680325137901,18.97884347356133],
+          [72.83690650898191,18.978665874558764],
+          [72.83711724257206,18.978565701143513]
+
+        ]
+      }
+    }
+     ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "slothbear_to_jackal",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "slothbear",
+        "to": "jackal",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+       
+          [72.83664498333513,18.979013453120604],
+
+          [72.83677439415,18.97897560352087],
+          [72.83689041572782,18.978932277183144],
+          [72.83700572427581,18.97898943613772],
+          [72.83710363247737,18.978972894218224],
+          [72.8371358352857,18.978962707266287],
+
+          [72.83711724257206,18.978565701143513]
+
+        ]
+      }
+    }
+     ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "publictoilet_to_lion",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "publictoilet",
+        "to": "lion",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+       
+          [72.83553999019523,18.979869346035322],
+          [72.83546794768336,18.979579652444016],
+          [72.83542905937469,18.97908103152246],
+
+          [72.83554261853261, 18.979045407351556]
+
+        ]
+      }
+    }
+ ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "bandstand_to_entryg",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "bandstand",
+        "to": "entryg",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+       
+         [72.83675632414419,18.97861514368821],
+         [72.83672012112493,18.978501021108773],
+         [72.83603753974528,18.97857332598731],
+         [72.83580549452495,18.97859880013197],
+         [72.83535755124448,18.978636829986943],
+         [72.83511204620439,18.978658477383437]
+
+        ]
+      }
+    }
+    ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "lion_to_entrygate1",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "lion",
+        "to": "entrygate1",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+      
+          [72.83551706995416, 18.97898694256032],
+         [72.83516313267559,18.978801648093505],
+         [72.83511204620439,18.978658477383437]
+
+        ]
+      }
+    }
+     ,
+   {
+      "type": "Feature",
+      "properties": {
+        "id": "bandstand_to_wolf",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "bandstand",
+        "to": "wolf",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83660881676663,18.978714107014653],
+          [72.83608037217422,18.978825943644328]
+         ]
+      }
+    }
+      ,
+   {
+      "type": "Feature",
+      "properties": {
+       "id": "bandstand_to_wolf1",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "bandstand",
+        "to": "wolf1",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83666647104063, 18.978815577063173],
+          [72.83608037217422,18.978825943644328]
+          
+  
+
+        ]
+      }
+    }
+    ,
+   {
+      "type": "Feature",
+      "properties": {
+       "id": "j1_to_j2",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "j1",
+        "to": "j2",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83752740301962, 18.978941211585777],
+          [72.83713181505256,18.97896404923701]
+
+          
+  
+
+        ]
+      }
+    }
+     ,
+   {
+      "type": "Feature",
+      "properties": {
+       "id": "b1_to_b2",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "b1",
+        "to": "b2",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83672011432249, 18.978496051688666],
+          [72.8368099597252,18.978348875245658],
+          [72.83684740412015,18.97804194463711]
+
+          
+  
+
+        ]
+      }
+    }
+ ,
+   {
+      "type": "Feature",
+      "properties": {
+       "id": "b3_to_b4",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "b3",
+        "to": "b4",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          
+          [72.8368099597252,18.978348875245658],
+          [72.83708082625657,18.978208077143417],
+          [72.83724579764109,18.978086228243466]
+
+          
+  
+
+        ]
+      }
+    }
+    ,
+   {
+      "type": "Feature",
+      "properties": {
+       "id": "b5_to_b6",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "b5",
+        "to": "b6",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83708082625657,18.978208077143417],
+          [72.83721764099215,18.978293117847116],
+          [72.83740139464221,18.97827271759236]
+
+          
+  
+
+        ]
+      }
+    }
+     ,
+   {
+      "type": "Feature",
+      "properties": {
+       "id": "j5_to_j6",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "j5",
+        "to": "j6",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83605087057295,18.978135641888255],
+          [72.83610182766701,18.978251099429045],
+          [72.83622251552137,18.978388125857133],
+          [72.83660201177454,18.97840715729656],
+          [72.83671599474812,18.978503583222928]     
+  
+
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+       "id": "j7_to_j8",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "j7",
+        "to": "j8",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [72.83595700211343,18.978219499372933],
+          [72.83584436011601,18.97837048221876],
+          [72.83571160347621,18.978411082624568],
+          [72.83548229655293,18.978381901083914],
+          [72.83510548225205,18.978589978044745]     
+  
+
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+       "id": "j9_to_j10",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "j9",
+        "to": "j10",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        
+          [72.83595440705258,18.978218237874337],
+          [72.8360268197652,18.97850624705224],
+          [72.8360295017175,18.978577297697996]     
+  
+
+        ]
+      }
+    }
+,
+    {
+      "type": "Feature",
+      "properties": {
+       "id": "j11_to_j12",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "j11",
+        "to": "j12",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        
+          [72.83623468279607,18.978380610949248],
+          [72.836024149539,18.97850114336769]  
+  
+
+        ]
+      }
+    }
+,
+    {
+      "type": "Feature",
+      "properties": {
+       "id": "j13_to_j14",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "j13",
+        "to": "j14",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        
+          [72.83570616615661,18.97841164188511],
+          [72.8358228310825,18.97858292473755]  
+  
+
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+       "id": "j15_to_j16",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "j15",
+        "to": "j16",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        
+          [72.83548366011827,18.978374201881596],
+          [72.83539378121682,18.97822452021785],
+          [72.83534822152616,18.978186424880317]  
+  
+
+        ]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+       "id": "j17_to_j18",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "j17",
+        "to": "j18",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        
+          [72.8349954766435,18.978497313185176],
+          [72.83500754542891,18.978392005916714],
+          [72.83490160831231,18.97824609814557]
+  
+
+        ]
+      }
+    }
+     ,
+    {
+      "type": "Feature",
+      "properties": {
+       "id": "k1_to_k2",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "k1",
+        "to": "k2",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        
+          [72.83580415624411,18.97859863638176],
+          [72.83581357529252,18.97869128218327],
+          
+          [72.8357009010798,18.978867613517433]
+  
+
+        ]
+      }
+    }
+  ,
+    {
+      "type": "Feature",
+      "properties": {
+       "id": "k3_to_k4",
+        "routeType": "primary",
+        "oneway": "both",
+        "from": "k3",
+        "to": "k4",
+        "floor": 0,"connector": false,
+        "access": "public","pathType": "horizontal",
+
+        "modes": ["normal", "emergency"],
+        "weight": 1,
+        "status": "open",
+        "color": "#62f545"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+        
+          [72.83603887160872,18.978572064491388],
+          [72.83606837308423,18.978650727673426],
+          [72.83613273993988,18.97874080965889],
+          [72.8361957658194,18.978823279039467],
+          [72.83608178823643,18.97885748971177]
+  
+
+        ]
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  
+  { "id": "entry_gate", "name": "Entry Gate", "coords": [72.83460802780169, 18.978274179746222], "category": "entry", "color": "#ccffff","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false},
+  { "id": "penguin_gate", "name": "Penguin Gate", "coords": [72.8374235793392,18.976054612240326], "category": "entry", "color": "#ccffff","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "exit_gate", "name": "Exit Gate", "coords": [72.83458534214014,18.97811797642703], "category": "entry", "color": "#ccffff","floor": 0,"type": "poi","access": "public", "roles": ["exit", "emergency_exit"] ,"emergencyAssemblyPoint": true },
+  { "id": "parking_area", "name": "Parking Entry Area", "coords": [72.83386773092832,18.977954278307827] , "category": "entry",  "color": "#ccffff","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+
+  { "id": "admin_office", "name": "Zoo office", "coords": [72.83721498565765,18.976532863105195], "category": "building",  "color": "#ffcc00","floor": 0,"type": "poi","access": "staff", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "theatre", "name": "Theatre", "coords": [72.83703923299433,18.976659740739823], "category": "building",  "color": "#ffcc00","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "ticket_zone", "name": "Ticket House", "coords": [72.83426207310835,18.977998805829404], "category": "building",  "color": "#ffcc00" ,"floor": 0,"type": "poi","access": "public", "roles": ["entry", "emergency_exit"] ,"emergencyAssemblyPoint": false},
+
+
+
+  { "id": "circle_freretemple", "name": "Lady Frere's Temple", "coords": [72.83759869046432,18.979497211342718], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "band_stand", "name": "Band Stand", "coords": [72.83676554234287,18.978739763330683], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "Jijamata_statue", "name": "Jijamata statue", "coords": [72.8359592266891,18.978123144818273], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "heritage_fountain", "name": "Heritage Fountain", "coords": [72.83395081596441,18.97873563178594], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "kala_ghoda", "name": "Kala Ghoda", "coords": [72.83483468996832,18.978362723775167], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "conserv", "name": "Conservatory", "coords": [72.83470567784066,18.978540358463988], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "lad_museum", "name": "Bhau Daji Lad Museum", "coords": [72.83427249835519,18.97846563607038], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "triump_arch", "name": "Triumphal Arch", "coords": [72.83459976115604,18.9783006969143], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "clock_tower", "name": "David Sasoon Clock Tower", "coords": [72.83367698735687,18.978378091461735], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "stony_Grotto", "name": "Stony Grotto", "coords": [72.83673770160979,18.978945095005056], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "sun_dial", "name": "Sun Dial", "coords": [72.83425642257048,18.97831071456747], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "elephant_stone", "name": "Elephant Stone", "coords": [72.83444151382672,18.978465503617045], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "fountain", "name": "Fountain", "coords": [72.83393586597452,18.97870022444241], "category": "heritage", "color": "#ff9900","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+
+
+  { "id": "toilet_wildcafe", "name": "Wild Cafe Toilet", "coords": [72.8379191442573,18.979184895211205], "category": "toilet", "color": "#3498DB","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "toilet_amphi", "name": "Amphitheatre Toilet", "coords": [72.8368902804442,18.977329514908966], "category": "toilet", "color": "#3498DB","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "toilet_entryarea", "name": "Entry Playground Toilet", "coords": [72.83391306487776,18.979728514568095], "category": "toilet", "color": "#3498DB","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "toilet_elephnatarea", "name": "Elephant Area Toilet", "coords": [72.83553999019523,18.979869346035322], "category": "toilet", "color": "#3498DB","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  
+  { "id": "Amphi_theatre", "name": "Amphitheatre", "coords": [72.8371425379949,18.977174862943972], "category": "recreation",  "color": "#E67E22" ,"floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false},
+  { "id": "play_ground", "name": "Zoo Play Ground", "coords": [72.83687586621848,18.97785455659613], "category": "recreation", "color": "#E67E22","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "entryplay_ground", "name": "Entry Play Ground", "coords": [72.83404316525352,18.979363113449345], "category": "recreation", "color": "#E67E22","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "sitting_area", "name": "Sitting Area", "coords": [72.8372431597487,18.977157100135855], "category": "recreation",  "color": "#ffcc00","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+
+
+  { "id": "Canteen", "name": "Canteen", "coords": [72.83747137721677,18.97653249638224], "category": "food", "color": "#E67E22","floor": 1,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "wildcafe", "name": "Wild Cafe", "coords": [72.8378346460751,18.979170938887634], "category": "food", "color": "#E67E22","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+
+  { "id": "bird_area", "name": "Birds Paradise", "coords": [72.83635958089661,18.977531036964482], "category": "birds", "color": "#66ff99","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "bird_aquatic", "name": "Aquatic birds", "coords": [72.83460400426335,18.977227660564356], "category": "birds", "color": "#66ff99","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "bird_aquaticexit", "name": "Aquatic birds exit", "coords": [72.83450194428076,18.977913761622222], "category": "birds", "color": "#66ff99","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+
+  { "id": "penguin", "name": "Penguin Bay", "coords": [72.83713734726592,18.976447854939153], "category": "animal",  "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+   { "id": "lion", "name": "Lion Area", "coords": [72.83554261853261, 18.979045407351556], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "monkey", "name": "Monkey Bay", "coords": [72.83905515782897,18.979234364976246], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "tiger", "name": "Tiger Area", "coords": [72.83688654912227,18.97907701118248], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "leopard", "name": "Leopard Hyena Area", "coords": [72.83711724257206,18.978565701143513], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "turtle", "name": "Madras pond turtle", "coords": [72.83580685012758,18.977757498203957], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "croc_gharial", "name": "Crocodile and Gharial", "coords": [72.8353065978108,18.977701674659944], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "otter", "name": "Otter", "coords": [72.83513491896447,18.977388288686804], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "sambar", "name": "Sambar", "coords": [72.83754110529549,18.978703998308625], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "spotted_deer", "name": "Spotted Deer", "coords": [72.83748879689696,18.97839442050887], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "black_buck", "name": "Black Buck", "coords": [72.83769534800902,18.977883108374986], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "Hippo1", "name": "Hippo", "coords": [72.83891453606637,18.97915187009099], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "Swamp Deer", "name": "swamp_deer", "coords": [72.83868652509854,18.97914045127865], "category":  "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "Hippo2", "name": "Hippo", "coords": [72.83857922581956,18.97912903246552], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "jackal", "name": "Jackal", "coords": [72.83711459066156,18.978860055751916], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "sloth_bear", "name": "Sloth Bear", "coords": [72.8362615613937,18.978924762453826], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "wolf", "name": "Wolf", "coords": [72.83591417997803,18.978901924797196], "category": "animal", "color": "#5DADE2","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+
+
+  { "id": "rose_garden", "name": "Rose Garden", "coords": [72.83742441732961,18.97795415928647], "category": "flower",  "color": "#FF69B4","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "japan_garden", "name": "Japanese Garden", "coords": [72.83621595920012,18.978150817901344], "category": "flower",  "color": "#FF69B4","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "butterfly_garden", "name": "Butterfly Garden", "coords": [72.8353709773782,18.9775012092066], "category": "flower",  "color": "#FF69B4","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+
+
+  { "id": "water_pyaav", "name": "Drinking Water Fountain", "coords": [72.83530257408785,18.977367988360534], "category": "water", "color": "#1ABC9C","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "water_pyaav1", "name": "Drinking Water Tap", "coords": [72.83698717276776,18.978705267068936], "category": "water", "color": "#1ABC9C","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "water_pyaav2", "name": "Drinking Water Pyaav", "coords": [72.83694157057418,18.97733119401285], "category": "water", "color": "#1ABC9C","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false },
+  { "id": "Drink_Water", "name": "Drinking Water Tiger Area", "coords": [72.83748074945105,18.979118882408727], "category": "water", "color": "#1ABC9C","floor": 0,"type": "poi","access": "public", "roles": ["entry"] ,"emergencyAssemblyPoint": false }
+
+]
+
+

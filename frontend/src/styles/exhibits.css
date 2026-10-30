@@ -1,0 +1,588 @@
+.exhibit-icon {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  border: 2px solid white;
+  box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+.exhibit-icon .icon-wrap {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  overflow: hidden;          /* ⭐ prevents image from spilling out */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;         /* optional */
+  border: 2px solid #444;    /* optional circle border */
+}
+
+.exhibit-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* ⭐ ensures image fits perfectly */
+  border-radius: 50%;
+}
+
+.category-animal {
+  background: #5DADE2;
+}
+.category-flower {
+  background: #FF69B4;
+}
+.category-plant {
+  background: #2ECC71;
+}
+.category-food {
+  background: #E67E22;
+}
+.category-toilet {
+  background: #3498DB;
+}
+.category-water {
+  background: #1ABC9C;
+}
+.category-heritage {
+  background: #9B59B6;
+}
+.category-office {
+  background: #95A5A6;
+}
+.category-entry {
+  background: #000;
+}
+.category-building {
+  background: #a48181;
+}
+.category-recreation {
+  background: #81a482;
+}
+.category-birds {
+  background: #988fd8;
+}
+
+.sidebar {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 220px;
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.category-block h4 {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.cat-btn {
+  width: 100%;
+  display: block;
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filter-panel {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 220px;
+  padding: 12px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.filter-search {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.filter-buttons button {
+  width: 48%;
+  padding: 6px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #34495e;
+  color: white;
+  cursor: pointer;
+}
+
+.filter-buttons button + button {
+  background: #7f8c8d;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.filter-item input {
+  margin-right: 8px;
+}
+
+.icon-wrap img {
+  width: 26px;
+  height: 26px;
+  filter: drop-shadow(0 0 2px rgba(0,0,0,0.4));
+}
+
+/* Base wrapper */
+.pulse-marker {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: .9; }
+  50% { transform: scale(1.3); opacity: .5; }
+  100% { transform: scale(1); opacity: .9; }
+}
+
+
+/* Main colored dot */
+.pulse-dot {
+  width: 12px;
+  height: 12px;
+  background: var(--pulse-color, #ff3b30);
+  border-radius: 50%;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  z-index: 2;
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
+
+/* The animated ring */
+.pulse-ring {
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--pulse-color, #ff3b30);
+  border-radius: 50%;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  animation: pulseAnim 1.4s ease-out infinite;
+  opacity: 0.7;
+}
+
+/* The pulse animation */
+@keyframes pulseAnim {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  80% {
+    transform: scale(2.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+/* ICON INSIDE PULSE */
+.pulse-icon {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 6px;
+  left: 6px;
+  z-index: 3;
+}
+
+/* ==============================
+   ⭐ Animated Route Glow (Keeps Polyline Color)
+   ============================== */
+
+.route-glow {
+  stroke-dasharray: 12 12 !important;
+  animation: dash 1.2s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+
+/* 👣 Footsteps-style moving path */
+.route-footsteps {
+  stroke: #007bff !important;
+  stroke-width: 4px !important;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  /* Create repeating footsteps */
+  stroke-dasharray: 2 18;
+  animation: footstepsMove 1.2s linear infinite;
+}
+
+@keyframes footstepsMove {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -20;
+  }
+}
+
+
+/* Main panel */
+.exhibit-panel-card {
+  width: 260px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Main title */
+.ex-title {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #2a2a2a;
+  letter-spacing: 0.5px;
+}
+
+/* Search bar */
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 12px;
+}
+
+/* Show/Hide filter buttons */
+.filter-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.btn-show {
+  background: #2c7bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 10px;
+}
+
+.btn-hide {
+  background: #777;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 10px;
+}
+
+/* Expand/Collapse buttons */
+.collapse-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.btn-expand,
+.btn-collapse {
+  background: #f1f1f1;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btn-expand:hover,
+.btn-collapse:hover {
+  background: #e2e2e2;
+}
+
+.dropdown {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background: white;
+}
+
+.dropdown:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Category header */
+.category-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 6px;
+  background: #fafafa;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 1px solid #eee;
+  transition: background 0.2s;
+}
+
+.category-header:hover {
+  background: #f0f0f0;
+}
+
+/* Category title */
+.category-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Badge */
+.category-badge {
+  background: #2c7bff;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 8px;
+  font-weight: 600;
+}
+
+/* Arrow */
+.arrow {
+  transition: transform 0.25s ease;
+  font-size: 12px;
+}
+
+.arrow.open {
+  transform: rotate(90deg);
+}
+
+/* Collapsible content */
+.category-content {
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+}
+
+.category-content.collapsed {
+  max-height: 0;
+}
+
+.category-content.expanded {
+  max-height: 400px;
+}
+
+/* Exhibit item buttons */
+.exhibit-btn {
+  padding: 7px 10px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  margin: 6px 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.exhibit-btn:hover {
+  filter: brightness(1.1);
+}
+
+/* Category colors */
+.category-entry { background: black; }
+.category-animal { background: #4ba3e3; }
+.category-food { background: #d67a00; }
+.category-flower { background: #ff5cad; }
+.category-heritage { background: #8052b5; }
+.category-toilet { background: #3280c8; }
+.category-water { background: #20b78a; }
+
+.exhibit-panel {
+  width: 300px;
+  height: 100vh;
+  overflow-y: auto;
+  background: #fafafa;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 🔵 Sticky top buttons bar */
+.exhibit-top-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: white;
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-btn {
+  padding: 6px 10px;
+  background: #1976d2;
+  color: white;
+  border-radius: 6px;
+  border: none;
+}
+
+.lang-dropdown {
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+/* 🔵 Category block */
+.category-block {
+  margin-bottom: 10px;
+}
+
+/* Sticky section header */
+.category-header {
+  position: sticky;
+  top: 52px; /* leaves space for top bar */
+  z-index: 5;
+  background: #e9f0ff;
+  padding: 10px;
+  border-bottom: 1px solid #c8d8ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: #1a3e7c;
+}
+
+.category-icon {
+  font-size: 20px;
+}
+
+.category-title {
+  font-size: 15px;
+}
+
+/* 🔵 Badge */
+.badge {
+  background: #1a73e8;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+/* 🔵 Expand arrow */
+.arrow {
+  font-size: 16px;
+  color: #1a3e7c;
+}
+
+/* 🔵 Items inside category */
+.exhibit-items {
+  background: white;
+  padding: 6px 12px;
+}
+
+.exhibit-item {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  color: #333;
+}
+
+.exhibit-item:hover {
+  background: #f0f7ff;
+}
+
+
+.floating-search {
+  position: absolute;
+  top: 70px;             /* below the header */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  max-width: 600px;
+  padding: 10px 14px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  z-index: 99999;
+  font-size: 16px;
+  background: #fff;
+}
+
+.leaflet-container {
+  z-index: 1;
+}
+
+.floating-search {
+  z-index: 9999;
+}
+
+.directions-panel {
+  padding: 12px;
+  font-size: 16px;
+}
+
+.direction-step {
+  background: #bbd8e7;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.btn {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .btn {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .dropdown {
+    font-size: 12px;
+  }
+}
+
+
+/* PULSE ANIMATION */
+@keyframes pulse {
+  0% { box-shadow: 0 0 0px 0 rgba(76, 175, 80, 0.6); }
+  70% { box-shadow: 0 0 15px 10px rgba(76, 175, 80, 0); }
+  100% { box-shadow: 0 0 0px 0 rgba(76, 175, 80, 0); }
+}
+

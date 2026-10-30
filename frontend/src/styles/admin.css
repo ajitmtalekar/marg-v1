@@ -1,0 +1,158 @@
+/* ===== LAYOUT ===== */
+.admin {
+  padding: 20px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.tabs button.active {
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+}
+
+/* ===== GRID SHARED ===== */
+.exhibit-grid-wrapper {
+  overflow-x: auto;
+  margin-top: 12px;
+}
+
+.exhibit-grid {
+  display: grid;
+  grid-template-columns:
+    140px   /* ID */
+    180px   /* Name */
+    140px   /* Category */
+    80px    /* Color */
+    150px   /* Longitude */
+    150px   /* Latitude */
+    80px    /* Floor */
+    120px   /* Access */
+    200px   /* Roles */
+    120px   /* Emergency */
+    110px;  /* Action */
+  gap: 8px;
+  align-items: center;
+  white-space: nowrap;
+}
+
+/* ===== HEADER ===== */
+.exhibit-grid.header {
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding: 6px 8px;
+}
+
+/* ===== ROW ===== */
+.exhibit-grid.row {
+  padding: 6px 8px;
+  border-bottom: 1px solid #eee;
+}
+
+/* ===== INPUTS ===== */
+.exhibit-grid input,
+.exhibit-grid select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.exhibit-grid input[type="checkbox"] {
+  justify-self: center;
+}
+
+.exhibit-grid button {
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+/* ===== ERRORS ===== */
+.exhibit-error {
+  grid-column: 1 / -1;
+  color: red;
+  font-size: 12px;
+}
+
+
+/* Shared grid wrapper */
+.exhibit-grid-wrapper {
+  overflow-x: auto;
+}
+
+/* 13 columns = headers count */
+.exhibit-grid {
+  display: grid;
+  grid-template-columns:
+    180px   /* ID */
+    120px   /* Route Type */
+    90px    /* Oneway */
+    120px   /* From */
+    120px   /* To */
+    70px    /* Floor */
+    100px   /* Access */
+    160px   /* Modes */
+    80px    /* Weight */
+    90px    /* Status */
+    80px    /* Color */
+    360px   /* Coordinates */
+    90px;   /* Action */
+
+  align-items: start;
+  gap: 8px;
+}
+
+/* Header row */
+.exhibit-grid.header {
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding: 6px 0;
+}
+
+/* Data rows */
+.exhibit-grid.row {
+  border-bottom: 1px solid #eee;
+  padding: 6px 0;
+}
+
+/* Inputs never force wrapping */
+.exhibit-grid input,
+.exhibit-grid select,
+.exhibit-grid button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ---- COORDINATES CELL ---- */
+.coords-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  max-height: 110px;      /* KEY FIX */
+  overflow-y: auto;       /* Scroll inside cell */
+  padding-right: 4px;
+  border: 1px dashed #ddd;
+}
+
+/* Each coordinate row */
+.coords-row {
+  display: flex;
+  gap: 4px;
+}
+
+/* Coordinate inputs */
+.coords-row input {
+  width: 90px;
+}

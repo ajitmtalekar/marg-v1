@@ -1,0 +1,17 @@
+[
+  {
+    "id": "Bliss_B",
+    "name": "Runwal Bliss B",
+    "category": "test",
+    "coords": [72.935484, 19.133562],
+    "color": "#ff5722"
+  },
+  {
+    "id": "Datar_end",
+    "name": "Datar",
+    "category": "test",
+    "coords": [72.9379, 19.1359],
+    "color": "#4caf50"
+  }
+
+]
